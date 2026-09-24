@@ -1,0 +1,11 @@
+{ 
+    "name": "Zomboid.Server", 
+    "references": [
+        "Zomboid.Core", 
+        "Zomboid.Data", 
+        "Zomboid.Sim", 
+        "Zomboid.World", 
+        "Zomboid.Net",
+        "FishNet.Runtime"
+    ] 
+}

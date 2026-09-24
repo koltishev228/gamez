@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe615b2e8f3c540ed8817ec2d31fbf3c, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieGame.Data.WeaponData
+  itemID: Axe
+  itemName: "\u0420\u0436\u0430\u0432\u044B\u0439 \u0442\u043E\u043F\u043E\u0440"
+  description: 
+  weight: 2
+  isStackable: 1
+  maxStackSize: 1
+  icon: {fileID: 6674386295937086461, guid: 0d007d48174ff47338f4811eee97cba2, type: 3}
+  prefab: {fileID: 9026376777592951239, guid: 64898653465294808b94b52031d16d34, type: 3}
+  canBeDirty: 1
+  canBeBloody: 1
+  canBeWet: 1
+  weaponType: 1
+  minDamage: 1
+  maxDamage: 2
+  attackSpeed: 1
+  attackRange: 1.5
+  maxCondition: 10
+  conditionLowerChance: 10
+  noiseRadius: 50
+  maxAmmo: 0
+  ammoType: 

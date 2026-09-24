@@ -1,0 +1,1 @@
+{ "name": "Zomboid.Sim", "references": ["Zomboid.Core", "Zomboid.Data", "FishNet.Runtime", "Unity.Mathematics", "Unity.Collections", "Unity.RenderPipelines.HighDefinition.Runtime", "Unity.RenderPipelines.Core.Runtime", "Unity.InputSystem"] }

@@ -1,0 +1,56 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Unity Version Control (Plastic) — не нужен в git
+/.plastic/
+/.local/
+/ignore.conf
+
+# Крэш-дампы и логи
+mono_crash.*.json
+compile.log
+*.log
+
+# IDE / генерируемые проекты
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Сборки и пакеты
+*.apk
+*.aab
+*.app
+*.unitypackage
+sysinfo.txt
+
+# Asset Store Tools / Addressables
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/StreamingAssets/aa.meta
+/[Aa]ssets/StreamingAssets/aa/*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini

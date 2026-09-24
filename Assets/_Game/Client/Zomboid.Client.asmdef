@@ -1,0 +1,15 @@
+{ 
+    "name": "Zomboid.Client", 
+    "references": [
+        "Zomboid.Core", 
+        "Zomboid.Data", 
+        "Zomboid.Sim", 
+        "Zomboid.World", 
+        "Zomboid.Net", 
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "FishNet.Runtime",
+        "Unity.Mathematics",
+        "Unity.Collections"
+    ] 
+}

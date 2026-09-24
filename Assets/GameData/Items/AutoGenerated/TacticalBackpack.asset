@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c214a6fc84247dcb1590f201288938, type: 3}
+  m_Name: TacticalBackpack
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieGame.Data.ClothingData
+  itemID: TacticalBackpack
+  itemName: "\u0422\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0440\u044E\u043A\u0437\u0430\u043A"
+  description: 
+  weight: 0.5
+  isStackable: 1
+  maxStackSize: 1
+  icon: {fileID: 0}
+  prefab: {fileID: 5956464296353697291, guid: d9eb909e117a4433cb666fe0d34d631e, type: 3}
+  canBeDirty: 1
+  canBeBloody: 1
+  canBeWet: 1
+  equipSlot: 4
+  biteDefense: 5
+  scratchDefense: 10
+  insulation: 0.1
+  windResistance: 0.2
+  waterResistance: 0.1
+  runSpeedModifier: 1

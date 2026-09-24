@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6af96b8a04943c8990b159a1278a85, type: 3}
+  m_Name: pitchfork
+  m_EditorClassIdentifier: Zomboid.Data::Zomboid.Data.Items.ItemDefinition
+  Id: pitchfork
+  NameKey: item_name_pitchfork
+  DescriptionKey: item_desc_pitchfork
+  EditorName: "\u0412\u0438\u043B\u044B"
+  EditorDescription: "Category: \u041E\u0440\u0443\u0436\u0438\u0435 \u0431\u043B\u0438\u0436\u043D\u0435\u0435\nSubcategory: \u041A\u043E\u043F\u044C\u044F"
+  Icon: {fileID: 0}
+  WorldPrefab: {fileID: 216742048934658233, guid: af3419d3971bf4d63a6f3e233bf03845, type: 3}
+  Weight: 2
+  MaxStack: 1
+  Components:
+  - rid: 6952929436133753244
+  references:
+    version: 2
+    RefIds:
+    - rid: 6952929436133753244
+      type: {class: ItemWeaponComponent, ns: Zomboid.Data.Items.Components, asm: Zomboid.Data}
+      data:
+        Type: 0
+        Damage: 10
+        Range: 1.5
+        AttackCooldown: 1
+        HasDurability: 1
+        MaxDurability: 100

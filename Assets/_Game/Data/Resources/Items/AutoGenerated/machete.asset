@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6af96b8a04943c8990b159a1278a85, type: 3}
+  m_Name: machete
+  m_EditorClassIdentifier: Zomboid.Data::Zomboid.Data.Items.ItemDefinition
+  Id: machete
+  NameKey: item_name_machete
+  DescriptionKey: item_desc_machete
+  EditorName: "\u041C\u0430\u0447\u0435\u0442\u0435"
+  EditorDescription: "Category: \u041E\u0440\u0443\u0436\u0438\u0435 \u0431\u043B\u0438\u0436\u043D\u0435\u0435\nSubcategory: \u0414\u043B\u0438\u043D\u043D\u044B\u0435 \u043A\u043B\u0438\u043D\u043A\u0438"
+  Icon: {fileID: 0}
+  WorldPrefab: {fileID: 2891274697368999790, guid: b0ddf5b0491bc41b4a8e88fda2544dc3, type: 3}
+  Weight: 1
+  MaxStack: 1
+  Components:
+  - rid: 6952929436133753232
+  references:
+    version: 2
+    RefIds:
+    - rid: 6952929436133753232
+      type: {class: ItemWeaponComponent, ns: Zomboid.Data.Items.Components, asm: Zomboid.Data}
+      data:
+        Type: 0
+        Damage: 10
+        Range: 1.5
+        AttackCooldown: 1
+        HasDurability: 1
+        MaxDurability: 100

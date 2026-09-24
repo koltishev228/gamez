@@ -1,0 +1,13 @@
+{ 
+    "name": "Zomboid.Editor", 
+    "includePlatforms": ["Editor"], 
+    "references": [
+        "Zomboid.Core", 
+        "Zomboid.Data", 
+        "Zomboid.Sim", 
+        "Zomboid.World",
+        "Zomboid.Client",
+        "FishNet.Runtime",
+        "Unity.TextMeshPro"
+    ] 
+}

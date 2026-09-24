@@ -1,0 +1,1 @@
+{ "name": "Zomboid.UI", "references": ["Zomboid.Core", "Zomboid.Data", "Zomboid.Sim", "Zomboid.Client"] }

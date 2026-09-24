@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe615b2e8f3c540ed8817ec2d31fbf3c, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieGame.Data.WeaponData
+  itemID: Knife
+  itemName: "\u041E\u043A\u0440\u043E\u0432\u0430\u0432\u043B\u0435\u043D\u043D\u044B\u0439 \u043D\u043E\u0436"
+  description: 
+  weight: 2
+  isStackable: 1
+  maxStackSize: 1
+  icon: {fileID: 0}
+  prefab: {fileID: 6982651098333252066, guid: abacd17c31e024205b37b83b7b484ac0, type: 3}
+  canBeDirty: 1
+  canBeBloody: 1
+  canBeWet: 1
+  weaponType: 1
+  minDamage: 1
+  maxDamage: 2
+  attackSpeed: 1
+  attackRange: 1.5
+  maxCondition: 10
+  conditionLowerChance: 10
+  noiseRadius: 50
+  maxAmmo: 0
+  ammoType: 

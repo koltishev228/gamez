@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6af96b8a04943c8990b159a1278a85, type: 3}
+  m_Name: frying_pan
+  m_EditorClassIdentifier: Zomboid.Data::Zomboid.Data.Items.ItemDefinition
+  Id: frying_pan
+  NameKey: item_name_frying_pan
+  DescriptionKey: item_desc_frying_pan
+  EditorName: "\u0421\u043A\u043E\u0432\u043E\u0440\u043E\u0434\u0430"
+  EditorDescription: "Category: \u041E\u0440\u0443\u0436\u0438\u0435 \u0431\u043B\u0438\u0436\u043D\u0435\u0435\nSubcategory: \u041A\u043E\u0440\u043E\u0442\u043A\u043E\u0435 \u0434\u0440\u043E\u0431\u044F\u0449\u0435\u0435"
+  Icon: {fileID: 0}
+  WorldPrefab: {fileID: 3939555958472130821, guid: 1933e1344cf7e43c184bb532e70d9efc, type: 3}
+  Weight: 1.2
+  MaxStack: 1
+  Components:
+  - rid: 6952929436133753226
+  references:
+    version: 2
+    RefIds:
+    - rid: 6952929436133753226
+      type: {class: ItemWeaponComponent, ns: Zomboid.Data.Items.Components, asm: Zomboid.Data}
+      data:
+        Type: 0
+        Damage: 10
+        Range: 1.5
+        AttackCooldown: 1
+        HasDurability: 1
+        MaxDurability: 100
